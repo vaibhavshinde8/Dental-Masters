@@ -8,6 +8,8 @@ const Services = () => {
 
   const getallServices = async () => {
     try {
+
+      
       const response = await fetch(
         "https://dentalmasters.onrender.com/api/v1/service/all-services"
       );
