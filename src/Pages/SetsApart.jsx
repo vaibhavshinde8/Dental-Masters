@@ -7,7 +7,11 @@ const sections = [
     title: "What sets your dental masters family apart from the rest?",
     content: `At Dental Masters, we love what we do, we care about our patients, and we maintain a very comfortable and relaxed environment. Our goal is for every patient to leave with a smile on their face!`,
     image: "https://dentalmasters.in/assets/images/apart1.jpg",
+
+    
   },
+
+
   {
     title: "ALL YOUR DENTAL TREATMENTS UNDER ONE ROOF!",
     content: `At Dental Masters, we save time & money for the patient by offering all treatments in one location. We can accommodate multiple patients at a time and have specialists for orthodontics, gum disease treatment, cosmetic, kids dentistry, root canal treatments, implants, general dentistry, aligners, and maxillofacial surgery.`,
