@@ -13,6 +13,8 @@ const Appointment = () => {
   useEffect(() => {
     const userState = Cookies.get("userState");
     if (userState) {
+
+      
       const parsedState = JSON.parse(userState);
       setState(parsedState);
       setPatientId(parsedState.user.id);
