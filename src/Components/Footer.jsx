@@ -12,6 +12,8 @@ export default function Footer() {
     );
     const data = await response.json();
     setServiceCategories(data.categories);
+
+    
   };
 
   useEffect(() => {
