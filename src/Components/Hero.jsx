@@ -9,9 +9,10 @@ const Hero = () => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [isLoading, setIsLoading] = useState(true);
+  const navigate = useNavigate();
   const { state } = useContext(AppContext);
 
-  const navigate = useNavigate();
+  
   // console.log(state);
 
   const fetchHeroData = async () => {
