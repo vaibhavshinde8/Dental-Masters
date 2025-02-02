@@ -10,6 +10,8 @@ const Info = () => {
       <div className="lg:px-12 lg:grid lg:grid-cols-2 space-y-10 lg:space-y-0">
         {/* Swiper Carousel for Mobile */}
         <div className="lg:hidden">
+
+          
           <h1 className="text-xl font-semibold text-center text-blue-500">Your Dream Smile</h1>
           <h1 className="text-2xl font-semibold text-center text-blue-950 pb-6 w-full">Advanced Technology</h1>
           <Swiper
