@@ -8,6 +8,9 @@ import { toast } from "react-toastify";
 const Carousel = () => {
   const [doctors, setDoctors] = useState([]);
 
+
+
+  
   const getAllDoctors = async () => {
     try {
       const response = await fetch(
