@@ -21,6 +21,10 @@ const ChatIcon = () => {
     }
   }, [state]);
 
+
+
+  
+
   const toggleModal = async () => {
     setIsModalOpen((prev) => !prev);
 
