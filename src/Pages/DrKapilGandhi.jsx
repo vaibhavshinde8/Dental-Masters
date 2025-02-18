@@ -20,13 +20,13 @@ const DrKapilGandhi = () => {
     getDoctorDetails();
   }, []);
 
-  if (!doctor) {
-    return <div>Loading...</div>;
-  }
+
 
   // Split the `about` text into paragraphs
   const aboutParagraphs = doctor.about.split("\n\n");
-
+  if (!doctor) {
+    return <div>Loading...</div>;
+  }
   return (
     <>
       {/* Breadcrumbs */}
