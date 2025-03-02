@@ -39,7 +39,7 @@ const OurTeam = () => {
           className="w-full h-96 object-cover opacity-50"
           alt="Dental Office"
         />
-        {/* Dark overlay */}
+       
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
 
         {/* Heading */}
