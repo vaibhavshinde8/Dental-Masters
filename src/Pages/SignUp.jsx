@@ -32,6 +32,8 @@ const SignUp = () => {
 
     // Validate name - should not contain numbers
     if (/\d/.test(response.name)) {
+
+
       setError("Name should not contain numbers");
       return false;
     }
@@ -46,9 +48,9 @@ const SignUp = () => {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    
     setError(null);
-
+    e.preventDefault();
     // Run validation before proceeding
     if (!validateInputs()) return;
 
