@@ -18,6 +18,9 @@ const OurTeam = () => {
       qualification: doctor.qualification,
     }));
 
+
+
+
     setDoctors(doctorsData);
   };
 
@@ -27,8 +30,10 @@ const OurTeam = () => {
 
   return (
     <div>
-      <div className="w-full bg-blue-500 flex justify-center items-center relative">
-        {/* Image with dark overlay */}
+      <div className="w-full bg-blue-500 flex justify-center items-center
+      
+      relative">
+      
         <img
           src="https://static.vecteezy.com/system/resources/previews/029/593/869/non_2x/modern-dental-office-setup-showcasing-equipment-background-with-empty-space-for-text-photo.jpg"
           className="w-full h-96 object-cover opacity-50"
