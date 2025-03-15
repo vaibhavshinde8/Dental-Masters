@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 
 const OurTeam = () => {
+
+
   const [doctors, setDoctors] = useState([]);
 
   const getAllDoctors = async () => {
@@ -8,7 +10,7 @@ const OurTeam = () => {
       "https://dentalmasters.onrender.com/api/v1/doctor/getAllDoctors"
     );
     const data = await response.json();
-    console.log(data)
+    
     const doctorsData = data.map((doctor) => ({
       id: doctor._id,
       name: doctor.name,
