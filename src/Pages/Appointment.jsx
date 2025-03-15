@@ -6,8 +6,9 @@ import Cookies from "js-cookie";
 import AppointmentStatus from "../Components/Appointstatus";
 
 const Appointment = () => {
-  const [state, setState] = useState([]);
   const [patientId, setPatientId] = useState("");
+  const [state, setState] = useState([]);
+ 
 
   useEffect(() => {
     const userState = Cookies.get("userState");
