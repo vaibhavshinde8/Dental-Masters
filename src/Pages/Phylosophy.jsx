@@ -6,6 +6,9 @@ const philosophyContent = [
   {
     title: "Our Approach to Dental Care",
     description: `
+
+
+    
       We are a family-focused dental practice that provides excellence in comprehensive 
       dental care while managing systemic medical conditions, oral health, and pathology 
       in each patient. We strive to treat patients as a whole person rather than tooth by tooth.
