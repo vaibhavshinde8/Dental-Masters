@@ -59,6 +59,7 @@ const SignUp = () => {
       await signup(
         response.name,
         response.email,
+        
         response.password,
         response.role,
         response.phone
